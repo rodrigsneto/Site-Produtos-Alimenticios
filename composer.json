@@ -1,0 +1,13 @@
+{
+    "name": "rodrigues/mvc",
+    "description": "",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\" : "core/",
+            "src\\" : "src/"
+        }
+    }
+}
