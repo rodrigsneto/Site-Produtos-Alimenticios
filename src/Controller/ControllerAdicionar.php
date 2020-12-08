@@ -2,7 +2,7 @@
 namespace src\Controller;
 
 use core\Controller;
-use core\DatabaseMysql;
+use src\Model\ModelAdicionar;
 
 class ControllerAdicionar extends Controller {
 
@@ -11,8 +11,10 @@ class ControllerAdicionar extends Controller {
         require '../src/View/pages/Adicionar.php';
         // Fazer coisas de banco se precisar
         // carregar arquivo da pagina desse controller
-        $cadastrar = new DatabaseMysql();
-        $cadastrar->cadastrar();
+        $cadastrar = new ModelAdicionar();
+        $cadastrar->adicionarProduto();
+        // $cadastrar->conectar();
+        // $cadastrar->cadastrar();
 
 
     }

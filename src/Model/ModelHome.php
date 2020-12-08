@@ -8,7 +8,6 @@ class ModelHome{
     {
         $query = new DatabaseMysql();
         $query->conectar();
-        $query->buscaProdutos();
-        return $query->getQuery();
+        return $query->buscaProdutos();
     }
 }
