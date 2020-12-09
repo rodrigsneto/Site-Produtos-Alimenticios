@@ -2,9 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <title>
-            Título do Site
-        </title>
+        <title>Título do Site</title>
     </head>
     <body>
     <header>

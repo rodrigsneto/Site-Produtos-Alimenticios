@@ -61,7 +61,7 @@ class DatabaseMysql implements DatabaseInterface{
         $sql->bindValue(':valor', $valor);
         $sql->execute();
         if($sql->rowCount() != 0) {
-            $lista = $sql->fetchAll();
+            $lista = $sql->fetch(\PDO::FETCH_ASSOC);
         }
         return $lista;
     }
@@ -84,8 +84,32 @@ class DatabaseMysql implements DatabaseInterface{
                 header("Location: index.php");
 
             } else {
-                echo "<strong>ERRO: Produto já existente</strong>";
+                echo "<strong>ERRO: Produto com o mesmo nome já existente</strong>";
             }
+        }
+    }
+    public function verificaId($index) {
+        $UsuarioDados = [];
+        $id = filter_input(INPUT_POST, 'id', FILTER_VALIDATE_INT);
+        $UsuarioDados = $this->buscaProduto('id', $id);
+
+        return true;
+    }
+    public function editar() {
+        $id = filter_input(INPUT_POST, 'id', FILTER_VALIDATE_INT);
+        $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+        $preco = filter_input(INPUT_POST, 'preco', FILTER_VALIDATE_FLOAT);
+        $preco_promo = filter_input(INPUT_POST, 'preco_promo', FILTER_VALIDATE_FLOAT);
+
+        if($nome && $id && $preco) {
+            $pdo = $this->getQuery();
+            $sql = $pdo->prepare("UPDATE produtos SET nome = :nome, preco = :preco, preco_promo = :preco_promo WHERE id = :id");
+            $sql->bindValue(':nome', $nome);
+            $sql->bindValue(':preco', $preco);
+            $sql->bindValue(':preco_promo', $preco_promo);
+            $sql->bindValue(':id', $id);
+            $sql->execute();
+            header("Location: index.php");
         }
     }
 

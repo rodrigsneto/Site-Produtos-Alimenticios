@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0da083d-7736-4415-b771-4bd189decb69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/ModelAdicionar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ControllerEditar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/ModelEditar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/DatabaseMysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/DatabaseMysql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerAdicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerAdicionar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ModelHome.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ModelHome.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/pages/adicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/pages/adicionar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/pages/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/pages/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/partial/cabecario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/partial/cabecario.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Controller" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,7 +81,8 @@
       <workItem from="1607269474853" duration="73000" />
       <workItem from="1607294874497" duration="4398000" />
       <workItem from="1607348049108" duration="45000" />
-      <workItem from="1607352785547" duration="36596000" />
+      <workItem from="1607352785547" duration="37017000" />
+      <workItem from="1607475692394" duration="13661000" />
     </task>
     <servers />
   </component>
@@ -87,5 +99,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

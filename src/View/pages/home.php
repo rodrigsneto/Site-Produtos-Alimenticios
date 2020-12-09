@@ -27,8 +27,8 @@ Adicionar novo item: <a href="../public/adicionar.php"><button>Adicionar</button
             <td><?php echo $produto['preco'];?></td>
             <td><?php echo $produto['preco_promo'];?></td>
             <td>
-                <a href="">EDITAR</a>
-                <a href="">EXCLUIR</a>
+                <a href="../public/editar.php?id=<?php echo $produto['id']; ?>">EDITAR</a>
+                <a href="../public/excluir.php?id=<?php echo $produto['id']; ?>">EXCLUIR</a>
             </td>
         </tr>
     <?php endforeach; ?>

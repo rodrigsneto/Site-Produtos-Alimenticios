@@ -19,5 +19,5 @@
         Preço com Promoção:<br/>
         <input type="number" min="0" max="100" step="any" name="preco_promo"><br/><br/>
     </label>
-    <input type="submit" value="Cadastrar">&nbsp;&nbsp;<a href="../public/index.php" ><button onclick="return confirm('Tem certeza que deseja cancelar?')">Cancelar</button></a>
+    <input type="submit" value="Cadastrar" wrap="hard">&nbsp;&nbsp;<button><a href="../public/index.php" target="_self" style="text-decoration:none; visited:none;">Cancelar</a></button>
 </form>
