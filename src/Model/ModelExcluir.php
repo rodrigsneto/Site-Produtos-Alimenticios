@@ -3,13 +3,13 @@ namespace src\Model;
 
 use core\DatabaseMysql;
 
-class ModelAdicionar {
+class ModelExcluir {
 
-    public function adicionarProduto()
+    public function excluirProduto()
     {
         $cadastrar = new DatabaseMysql();
         $cadastrar->conectar();
-        $cadastrar->cadastrar();
+        $cadastrar->excluirProdutoId();
     }
 
 }

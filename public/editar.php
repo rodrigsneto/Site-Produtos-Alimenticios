@@ -10,4 +10,3 @@ $controller->carregaCabecalho();
 $controller->carregaPagina();
 
 $controller->carregaRodape();
-

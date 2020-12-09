@@ -19,7 +19,7 @@ class ControllerEditar extends Controller
 
         // var_dump($usuarioDados);
 
-        require '../src/View/pages/Editar.php';
+        require '../src/View/pages/editar.php';
 
         $usuariolista->cadastraProduto();
     }

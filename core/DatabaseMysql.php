@@ -88,12 +88,14 @@ class DatabaseMysql implements DatabaseInterface{
             }
         }
     }
-    public function verificaId($index) {
-        $UsuarioDados = [];
+    public function verificaId() {
+        $usuarioDados = [];
         $id = filter_input(INPUT_POST, 'id', FILTER_VALIDATE_INT);
-        $UsuarioDados = $this->buscaProduto('id', $id);
+        $usuarioDados = $this->buscaProduto('id', $id);
+        var_dump($_GET);
+        var_dump($id);
 
-        return true;
+        return $usuarioDados;
     }
     public function editar() {
         $id = filter_input(INPUT_POST, 'id', FILTER_VALIDATE_INT);
@@ -112,5 +114,17 @@ class DatabaseMysql implements DatabaseInterface{
             header("Location: index.php");
         }
     }
+    public function excluirProdutoId() {
+        $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
+        if ($id) {
+            $pdo = $this->getQuery();
+            $sql = $pdo->prepare("DELETE FROM produtos WHERE produtos.id = :id");
+            $sql->bindValue(':id', $id);
+            $sql->execute();
+            header("Location: index.php");
+        }
+        return true;
+    }
+
 
 }

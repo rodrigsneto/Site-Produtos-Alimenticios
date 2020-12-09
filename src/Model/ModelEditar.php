@@ -37,5 +37,4 @@ class ModelEditar
             header("Location: index.php");
         }
     }
-
 }

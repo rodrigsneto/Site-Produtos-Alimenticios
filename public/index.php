@@ -15,7 +15,7 @@ data_criacao
 data_atualizacao
  */
 
-
+// asdasadad
 // Instanciar ControllerHome
 // ControllerHome deve extender o Controller do core e n recebe nada como parametro
 $controller = new ControllerHome();
