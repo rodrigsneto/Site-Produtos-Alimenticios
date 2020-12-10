@@ -11,5 +11,4 @@ class ModelExcluir {
         $cadastrar->conectar();
         $cadastrar->excluirProdutoId();
     }
-
 }

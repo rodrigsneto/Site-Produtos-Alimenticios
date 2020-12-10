@@ -17,5 +17,4 @@ class ControllerHome extends Controller
         $produtos = $todosprodutos->selectAll();
         require '../src/View/pages/home.php';
     }
-
 }

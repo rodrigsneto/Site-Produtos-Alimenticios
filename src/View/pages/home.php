@@ -23,7 +23,9 @@ Adicionar novo item: <a href="../public/adicionar.php"><button>Adicionar</button
             <td>
                 <a href="../public/editar.php?id=<?php echo $produto['id']; ?>"><button>Editar</button></a>
 
-                <a href="../public/excluir.php?id=<?php echo $produto['id']; ?> "><button onclick="return confirm('Tem certeza que deseja excluir o produto: <?= $produto['nome']; ?>?')">Excluir</button></a>
+                <a href="../public/excluir.php?id=<?php echo $produto['id']; ?> ">
+                    <button onclick="return confirm('Tem certeza que deseja excluir o produto: <?= $produto['nome']; ?>?')">
+                        Excluir</button></a>
 
             </td>
         </tr>

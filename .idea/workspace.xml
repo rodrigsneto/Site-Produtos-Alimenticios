@@ -3,16 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a0da083d-7736-4415-b771-4bd189decb69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/adicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/adicionar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/excluir.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/excluir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerAdicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerAdicionar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ControllerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/ControllerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/DatabaseInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/DatabaseInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/DatabaseMysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/DatabaseMysql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ControllerEditar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerEditar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerExcluir.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerExcluir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerHome.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerHome.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ModelAdicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ModelAdicionar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ModelEditar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ModelEditar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ModelHome.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ModelHome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/pages/adicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/pages/adicionar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/pages/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/pages/editar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/pages/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +84,8 @@
       <workItem from="1607475692394" duration="13921000" />
       <workItem from="1607547743123" duration="6145000" />
       <workItem from="1607555229277" duration="1151000" />
-      <workItem from="1607562685352" duration="1157000" />
+      <workItem from="1607562685352" duration="1948000" />
+      <workItem from="1607569425434" duration="930000" />
     </task>
     <servers />
   </component>
