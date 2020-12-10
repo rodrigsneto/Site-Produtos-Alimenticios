@@ -92,7 +92,6 @@ class DatabaseMysql implements DatabaseInterface{
                 $sql->bindValue(':preco', $preco);
                 $sql->bindValue(':preco_promo', $preco_promo);
                 $sql->execute();
-                echo "JA ENTROU NO IF COUNT TESTE";
                 header("Location: index.php");
             } else {
                 echo "<strong>ERRO: Produto com o mesmo nome já existente</strong>";
