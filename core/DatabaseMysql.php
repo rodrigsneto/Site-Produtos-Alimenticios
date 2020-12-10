@@ -92,7 +92,7 @@ class DatabaseMysql implements DatabaseInterface{
                 $sql->bindValue(':preco', $preco);
                 $sql->bindValue(':preco_promo', $preco_promo);
                 $sql->execute();
-                header("Location: index.php");
+                header("Location: ../public/index.php");
             } else {
                 echo "<strong>ERRO: Produto com o mesmo nome já existente</strong>";
             }
