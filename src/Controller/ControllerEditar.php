@@ -11,13 +11,9 @@ class ControllerEditar extends Controller
     {
         $usuariolista = new ModelEditar();
 
-
-
         $usuarioDados = $usuariolista->buscaProduto();
 
         $usuariolista->verifExist();
-
-        // var_dump($usuarioDados);
 
         require '../src/View/pages/editar.php';
 

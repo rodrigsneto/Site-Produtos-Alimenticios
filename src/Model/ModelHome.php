@@ -1,7 +1,7 @@
 <?php
 namespace src\Model;
 
-use \core\DatabaseMysql;
+use core\DatabaseMysql;
 
 class ModelHome{
     public function selectAll()

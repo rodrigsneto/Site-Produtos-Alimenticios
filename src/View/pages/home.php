@@ -1,9 +1,3 @@
-<?php
-use src\Model\ModelHome;
-
-$todosprodutos = new ModelHome;
-$produtos = $todosprodutos->selectAll();
-?>
 Adicionar novo item: <a href="../public/adicionar.php"><button>Adicionar</button></a>
 <br/>
 <br/>
