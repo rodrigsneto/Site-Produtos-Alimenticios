@@ -9,9 +9,9 @@ class ControllerEditar extends Controller
     public function carregaPagina()
     {
         $usuariolista = new ModelEditar();
-        $usuarioDados = $usuariolista->buscaProduto();
-        $usuariolista->verifExist();
+        $usuarioDados = $usuariolista->buscaProdutoGetId();
+        $usuariolista->seExisteProduto();
         require '../src/View/pages/editar.php';
-        $usuariolista->cadastraProduto();
+        $usuariolista->editaProduto();
     }
 }

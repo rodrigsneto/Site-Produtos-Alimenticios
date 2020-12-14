@@ -2,12 +2,15 @@
 namespace src\Model;
 
 use core\DatabaseMysql;
+use core\DatabaseHelper;
 
-class ModelHome{
-    public function selectAll()
+class ModelHome
+{
+    public function buscaTodos()
     {
-        $query = new DatabaseMysql();
-        $query->conectar();
-        return $query->buscaProdutos();
+        $busca = new DatabaseHelper();
+        $produtosTodos = $busca->buscaProdutoTodos();
+        return $produtosTodos;
+
     }
 }
