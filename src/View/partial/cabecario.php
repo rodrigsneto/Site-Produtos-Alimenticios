@@ -2,9 +2,9 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <title>Título do Site</title>
+        <title>Produtos Alimentícios</title>
     </head>
     <body>
     <header>
-        <h1>Título do Projeto</h1><hr/>
+        <h1>Produtos Alimentícios</h1><hr/>
     </header>
