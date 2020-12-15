@@ -1,10 +1,31 @@
-a:link, a:visited {
-    text-decoration: none
+table {
+    width: 100%;
 }
-a:hover {
-    text-decoration: underline;
-    color: #f00
+table th {
+    margin: 1px;
+    border: 0;
 }
-a:active {
-    text-decoration: none
+table td {
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 2px;
+    padding: 3px;
+}
+table tbody tr:hover {
+    background-color: #EEE;
+}
+
+.linknoformat {
+    text-decoration:none;
+}
+.linknoformat:visited {
+    color: #000;
+}
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+.buttonformadc {
+    width: 78px;
+    height: 30px;
 }
